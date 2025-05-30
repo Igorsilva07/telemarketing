@@ -1,6 +1,7 @@
 streamlit
 pandas
 matplotlib
-seaborn  # <--- Esta é a que estava causando o erro!
-openpyxl # Necessário para ler/escrever arquivos Excel (pd.read_excel, pd.ExcelWriter)
-Pillow   # Necessário para 'from PIL import Image'
+seaborn
+openpyxl
+Pillow
+xlsxwriter
